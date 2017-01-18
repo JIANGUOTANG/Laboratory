@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="16dp"
+    android:clickable="true"
+
+    android:orientation="horizontal">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="92dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="92dp"
+            android:paddingStart="92dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/serchresult_tvName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_rect_list_normal"
+                    android:clickable="false"
+                    android:gravity="center_vertical"
+                    android:text="hhhh"
+                    android:textColor="@color/text"
+                    android:textSize="34sp" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/serchresult_tvID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_rect_list_normal"
+                android:clickable="false"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:text="hhhh"
+                android:textColor="@color/colorsmallTitle"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/serchresultImage"
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:clickable="false"
+            android:padding="4dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher"
+            android:transitionName="notifiIcon" />
+    </RelativeLayout>
+
+<ImageView
+    android:id="@+id/serchresult_covering_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:adjustViewBounds="true"
+    android:scaleType="centerCrop"
+    android:src="@drawable/love"
+    android:transitionName="headerTransition"
+    android:visibility="invisible"
+    />
+</FrameLayout>
+</android.support.v7.widget.CardView>

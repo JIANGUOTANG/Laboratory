@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorwhith"
+    android:orientation="vertical"
+    tools:context="com.example.myapplication.LoginActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/toolbarstyle" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/register_root"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/Transparent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/register_carView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="40dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/maincolor"
+                    android:orientation="vertical"
+                    android:transitionName="buttontolin">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:layout_marginTop="30dp"
+                        android:orientation="vertical"
+                        app:errorEnabled="true">
+
+                        <EditText
+                            android:id="@+id/reg_edtRePassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:digits="1234567890qwertyuiopasdfghjklzxcvbnm "
+                            android:drawableTint="@color/maincolor"
+                            android:hint="用户ID"
+                            android:maxLength="48"
+                            android:saveEnabled="false" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="16dp"
+                        android:text="审核状态"
+                        android:textColor="@color/colorwhith"
+                        android:textSize="30sp" />
+
+                    <RadioGroup
+                        android:id="@+id/sersubscribe_radiogroup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/searchsubRadioWait"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="等待"
+                            android:checked="true"
+                            android:textColor="@color/colorwhith"
+                            android:textSize="20sp" />
+
+                        <RadioButton
+                            android:id="@+id/searchsubRadioCross"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="通过"
+                            android:textColor="@color/colorwhith"
+                            android:textSize="20sp" />
+
+                        <RadioButton
+                            android:id="@+id/searchsubRadioUncross"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="不通过"
+                            android:textColor="@color/colorwhith"
+                            android:textSize="20sp" />
+                    </RadioGroup>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="查询"
+                        android:textColor="@color/maincolor"
+                        android:textSize="24sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

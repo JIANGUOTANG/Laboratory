@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF2196F3</color>
+    <color name="colorPrimaryDark">#FF1976D2</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorMyPriryDark">#1976D2</color>
+    <color name="maincolor">#2196F3</color>
+    <color name="colorwhith">#ffffff</color>
+    <color name="Transparent">#00000000</color>
+    <color name="semiTransparentWhite">#40FFFFFF</color>
+    <color name="Transparentgray">#20626262</color>
+    <!-- general text colors -->
+    <color name="text">#212121</color>
+    <color name="secondary">#727272</color>
+    <color name="hint">#B8B8B8</color>
+    <color name="dividers">#DADADA</color>
+
+    <color name="colorsmallTitle">#8A8A8A</color>
+    <!-- general colors for drawer -->
+    <color name="list_background">#F2F2F2</color>
+    <!-- primary colors for drawer -->
+    <color name="list_background_normal">#FCFCFC</color>
+    <!-- secondary colors for drawer -->
+    <color name="list_background_secondary_normal">#F2F2F2</color>
+
+    <color name="transparentblue">#882196F3</color>
+    <drawable name="maincolor">#2196F3</drawable>
+    <!-- Textcolor-->
+    <color name="black_text">#86000000</color>
+    <color name="black_fadetext">#56000000</color>
+    <color name="black_hinttext">#26000000</color>
+    <color name="black_lint">#12000000</color>
+    <color name="white_fadetext">#70ffffff</color>
+    <color name="white_hinttext">#30ffffff</color>
+    <color name="white_lint">#12ffffff</color>
+    <color name="transparent_white">#00FFFFFF</color>
+
+</resources>

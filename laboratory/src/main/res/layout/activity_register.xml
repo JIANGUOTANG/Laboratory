@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myapplication.LoginActivity"
+android:background="@color/colorwhith"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/register_root"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+        <RelativeLayout
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@color/Transparent"
+            >
+            <android.support.v7.widget.CardView
+                android:id="@+id/register_carView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                >
+                <LinearLayout
+                    android:transitionName="buttontolin"
+                    android:background="@color/maincolor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="注册"
+                        android:textColor="@color/colorwhith"
+                        android:textSize="30sp"
+                        android:layout_margin="12dp"
+                        android:gravity="center"
+                        />
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="80dp"
+                        android:textColorHint="#c5c5c5"
+                        android:orientation="vertical"
+                        app:errorEnabled="true">
+                        <EditText
+                            android:layout_marginRight="30dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="16dp"
+                            style="@style/Edtext_bluebg"
+                            android:hint="账号"
+                        />
+                    </android.support.design.widget.TextInputLayout>
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="80dp"
+                        android:textColorHint="#c5c5c5"
+                        android:orientation="vertical"
+                        app:errorEnabled="true">
+                        <EditText android:id="@+id/reg_edtPassword"
+                            android:layout_marginRight="30dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="16dp"
+                            android:inputType="textPassword"
+                            style="@style/Edtext_bluebg"
+                            android:hint="密码"
+                            />
+                    </android.support.design.widget.TextInputLayout>
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="80dp"
+                        android:textColorHint="#c5c5c5"
+                        android:orientation="vertical"
+                        app:errorEnabled="true">
+                        <EditText
+                            android:id="@+id/reg_edtRePassword"
+                            android:layout_marginRight="30dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="16dp"
+                            android:inputType="textPassword"
+                            style="@style/Edtext_bluebg"
+                            android:hint="密码"
+
+                            />
+                    </android.support.design.widget.TextInputLayout>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:text="注册"
+                        android:textColor="@color/maincolor"
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:text="登录"  android:textColor="@color/maincolor"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+
+                        />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

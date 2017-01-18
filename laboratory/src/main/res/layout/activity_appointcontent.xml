@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/toolbarstyle">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/appointContent_tvCommit"
+                style="@style/ActionbarTextView"
+                android:text="@string/commit" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="horizontal">
+                <TextView
+                    style="@style/sertuserTextView"
+                    android:text="@string/experimentalUse" />
+                <android.support.design.widget.TextInputLayout style="@style/TextInputLayout">
+                    <EditText
+                        style="@style/Edtext"
+                        android:hint="@string/experimentalUse" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="horizontal">
+                <TextView
+                    style="@style/sertuserTextView"
+                    android:text="@string/experimentContent" />
+                <android.support.design.widget.TextInputLayout style="@style/TextInputLayout">
+                    <EditText
+                        style="@style/Edtext"
+                        android:hint="@string/experimentContent" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="horizontal">
+                <TextView
+                    style="@style/sertuserTextView"
+                    android:text="@string/remarks" />
+                <android.support.design.widget.TextInputLayout style="@style/TextInputLayout">
+                    <EditText
+                        style="@style/Edtext"
+                        android:hint="@string/remarks" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/black_lint" />
+            <com.patryk1007.zoomviewpager.ZoomHeaderViewPager
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:hvPadding="10dp"
+                app:hvTextAlpha="0.2"
+                app:hvTextAlphaActiveTab="0.9"
+                app:hvTextColor="@color/maincolor"
+                app:hvTextColorActiveTab="@color/maincolor"
+                app:hvTextScale="0.6"
+                app:hvTextScaleActiveTab="0.9"
+                app:hvTextSize="20sp">
+             <android.support.v4.view.ViewPager
+                 android:id="@+id/appointContent_viewpager"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+             </android.support.v4.view.ViewPager>
+            </com.patryk1007.zoomviewpager.ZoomHeaderViewPager>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

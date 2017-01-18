@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Transparentgray"
+    tools:showIn="@layout/activity_insertlaboratory">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/sertuserTextView"
+                        android:text="@string/laboratoryID" />
+
+                    <android.support.design.widget.TextInputLayout style="@style/TextInputLayout">
+
+                        <EditText
+                            style="@style/Edtext"
+
+                            android:hint="@string/laboratoryID" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/sertuserTextView"
+                        android:text="@string/laboratoryName" />
+
+                    <android.support.design.widget.TextInputLayout style="@style/TextInputLayout">
+
+                        <EditText
+                            style="@style/Edtext"
+                            android:hint="@string/laboratoryName" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/sertuserTextView"
+                        android:text="@string/laboratoryUnit" />
+
+                    <android.support.design.widget.TextInputLayout
+
+                        style="@style/TextInputLayout">
+
+                        <EditText
+
+                            style="@style/Edtext"
+                            android:hint="@string/laboratoryUnit" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/sertuserTextView"
+                        android:text="@string/principal" />
+
+                    <android.support.design.widget.TextInputLayout
+
+                        style="@style/TextInputLayout">
+
+                        <EditText
+
+                            style="@style/Edtext"
+                            android:hint="@string/principal" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/sertuserTextView"
+                        android:text="@string/equip_amount" />
+
+                    <android.support.design.widget.TextInputLayout style="@style/TextInputLayout">
+
+                           <EditText
+                            style="@style/Edtext"
+
+                            android:hint="@string/equip_amount" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/sertuserTextView"
+                        android:text="@string/contain" />
+
+                    <android.support.design.widget.TextInputLayout style="@style/TextInputLayout">
+
+                        <EditText
+                            style="@style/Edtext"
+
+                            android:hint="@string/contain" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/sertuserTextView"
+                        android:text="@string/location" />
+
+                    <android.support.design.widget.TextInputLayout style="@style/TextInputLayout">
+
+                        <EditText
+                            style="@style/Edtext"
+
+                            android:hint="@string/location" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/sertuserTextView"
+                        android:text="@string/briefing" />
+
+                    <android.support.design.widget.TextInputLayout style="@style/TextInputLayout">
+
+                        <EditText
+                            style="@style/Edtext"
+
+                            android:hint="@string/briefing" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/maincolor"
+    tools:context="com.example.myapplication.LoginActivity"
+    android:orientation="vertical"
+    >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/toolbarstyle"
+        android:elevation="0dp"
+        />
+<LinearLayout
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_width="match_parent"
+    android:gravity="center"
+
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="12dp"
+
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="40dp">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:gravity="center"
+                android:text="登录"
+                android:textSize="30sp" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/your_matchcode_holder"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+
+                android:orientation="vertical"
+                app:errorEnabled="true">
+
+                <EditText
+                    android:id="@+id/your_matchcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="26dp"
+                    android:digits="1234567890qwertyuiopasdfghjklzxcvbnm "
+                    android:hint="账号"
+                    android:maxLength="48"
+                    android:saveEnabled="false" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="fill_parent"
+
+                android:layout_height="80dp"
+
+                android:orientation="vertical"
+                app:errorEnabled="true">
+
+                <EditText
+                    android:id="@+id/edtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="30dp"
+                    android:inputType="textPassword"
+                    android:drawableTint="@color/maincolor"
+                    android:hint="密码"
+                    android:maxLength="48"
+
+                    android:saveEnabled="false"
+                    android:textColorLink="@color/maincolor" />
+
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:id="@+id/login_btLogin"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/maincolor"
+                android:foreground="@drawable/button_forougron"
+                android:gravity="center"
+                android:text="登录"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/login_btRegister"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+
+                android:background="@color/maincolor"
+                android:foreground="@drawable/button_forougron"
+                android:gravity="center"
+                android:text="注册"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                android:transitionName="buttontolin" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+           >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dp"
+                    android:gravity="center"
+                    android:text="忘记密码？"
+                    android:textColor="@color/maincolor"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+</LinearLayout>

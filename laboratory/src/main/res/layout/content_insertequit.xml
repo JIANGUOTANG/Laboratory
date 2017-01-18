@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Transparentgray"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_inserqquipment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/sertuserTextView"
+                        android:text="@string/equipID" />
+
+                    <android.support.design.widget.TextInputLayout
+                        style="@style/TextInputLayout"
+
+                        >
+
+                        <EditText
+                            style="@style/Edtext"
+
+                            android:hint="@string/equipID" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/sertuserTextView"
+                        android:text="@string/equipName" />
+
+                    <android.support.design.widget.TextInputLayout style="@style/TextInputLayout">
+
+                        <EditText
+                            style="@style/Edtext"
+
+                            android:hint="@string/equipName" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/sertuserTextView"
+                        android:text="@string/laboratory" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="0dp"
+                        android:layout_height="56dp"
+                        android:layout_weight="1"
+                        android:textColorHint="#c5c5c5">
+
+                        <EditText
+
+                            style="@style/Edtext"
+
+                            android:hint="@string/laboratory" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <ImageButton
+                        android:id="@+id/imgbtSerch"
+                        android:layout_width="56dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:drawable/ic_menu_search" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/sertuserTextView"
+                        android:text="@string/way" />
+
+                    <android.support.design.widget.TextInputLayout
+
+                        style="@style/TextInputLayout">
+
+                        <EditText
+
+                            style="@style/Edtext"
+
+                            android:hint="@string/way" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/sertuserTextView"
+                        android:text="@string/option" />
+
+                    <android.support.design.widget.TextInputLayout
+
+                        style="@style/TextInputLayout">
+
+                        <EditText
+
+                            style="@style/Edtext"
+
+                            android:hint="@string/option" />
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/sertuserTextView"
+                        android:text="@string/firm" />
+
+                    <android.support.design.widget.TextInputLayout style="@style/TextInputLayout">
+
+                        <EditText
+                            style="@style/Edtext"
+
+                            android:hint="@string/firm" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/sertuserTextView"
+                        android:text="@string/equipDescribe" />
+
+                    <android.support.design.widget.TextInputLayout style="@style/TextInputLayout">
+
+                        <EditText
+                            style="@style/Edtext"
+
+                            android:hint="@string/equipDescribe" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/sertuserTextView"
+                        android:text="@string/species" />
+
+                    <android.support.design.widget.TextInputLayout style="@style/TextInputLayout">
+
+                        <EditText
+                            style="@style/Edtext"
+
+                            android:hint="@string/species" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/sertuserTextView"
+                        android:text="@string/producingArea" />
+
+                    <android.support.design.widget.TextInputLayout style="@style/TextInputLayout">
+
+                        <EditText
+                            style="@style/Edtext"
+
+                            android:hint="@string/producingArea" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/sertuserTextView"
+                        android:text="@string/buyDate" />
+
+                    <android.support.design.widget.TextInputLayout style="@style/TextInputLayout">
+
+                        <EditText
+                            style="@style/Edtext"
+
+                            android:hint="@string/buyDate" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

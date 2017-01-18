@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <style name="Edtext">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginTop">26dp</item>
+        <item name="android:saveEnabled">true</item>
+        <item name="android:maxLength">48</item>
+        <item name="android:textCursorDrawable">@drawable/bg_input_cursor</item>
+    </style>
+    <style name="Edtext_bluebg">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginTop">26dp</item>
+        <item name="android:saveEnabled">true</item>
+        <item name="android:maxLength">48</item>
+        <item name="android:textCursorDrawable">@drawable/bg_input_cursor</item>
+    </style>
+    <style name="TextInputLayout" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:textColorHint">#c5c5c5</item>
+    </style>
+
+    <style name="sertuserLinnerlayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginTop">8dp</item>
+
+    </style>
+    <style name="sertuserTextView">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/black_text</item>
+    </style>
+
+<style name="toolbarstyle">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">?attr/actionBarSize</item>
+    <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    <item name="android:background">@color/maincolor</item>\
+
+
+</style>
+    <style name="TextViweStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:gravity">bottom|left</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="TextViewStyle_user2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:gravity">bottom|left</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="TextViewStyle_user1">
+
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:textSize">22sp</item>
+
+    </style>
+
+<style name="ActionbarTextView">
+    <item name="android:layout_width">56dp</item>
+    <item name="android:layout_height">56dp</item>
+    <item name="android:layout_gravity">right</item>
+    <item name="android:layout_marginRight">16dp</item>
+    <item name="android:background">@color/maincolor</item>
+    <item name="android:foreground">@drawable/button_forougron</item>
+    <item name="android:gravity">center</item>
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:textSize">@dimen/textsize_Appbar</item>
+</style>
+    <style name="MyButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:background">@drawable/button_forougron</item>
+    </style>
+</resources>
